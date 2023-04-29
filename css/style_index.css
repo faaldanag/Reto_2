@@ -4,14 +4,6 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-body {
-    background-image: url(../img/Fondo_index.jpg);
-    background-color: #cccccc;
-    background-size: cover;
-    background-position: center;
-    
-}
-
 h1 {
     color: white;
     align-items: center;
@@ -56,3 +48,37 @@ tfoot {
 .fondonav{
     background-color: rgba(148, 148, 148, 0.603) !important;;
 }
+
+#Respuestam{
+    display: none;
+    padding: 1px;
+    margin-top: -35px;
+}
+.img-bg-mensajes{
+    background-image: url(../img/Fondo_Mensajes.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+}
+.img-bg-carros{
+    background-image: url(../img/Fondo_Carros.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+}
+.img-bg-clientes{
+    background-image: url(../img/Fondo_Clientes.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+}
+.img-bg-index{
+    background-image: url(../img/Fondo_index.jpg);
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+}
+img{
+    margin-top: 10%;
+}
+
