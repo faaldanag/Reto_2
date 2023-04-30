@@ -309,7 +309,7 @@ function enviarPut() {
 
   var idCarros = parseInt(document.getElementById("idClientesm").value);
   var Marca = document.getElementById("Nombrem").value;
-  var Modelo = document.getElementById("Correom").value;
+  var Correom = document.getElementById("Correom").value;
   var Categoria_id = parseInt(document.getElementById("Edadm").value);
 
 
@@ -322,7 +322,7 @@ function enviarPut() {
     const fila = filasTabla[i];
     if (fila.cells[0].innerHTML == idCarros) {
       fila.cells[1].innerHTML = Marca;
-      fila.cells[2].innerHTML = Modelo;
+      fila.cells[2].innerHTML = Correom;
       fila.cells[3].innerHTML = Categoria_id;
       break;
     }
@@ -335,7 +335,7 @@ function enviarPut() {
     const filas = filasTablat[i];
     if (filas.cells[0].innerHTML == idCarros) {
       filas.cells[1].innerHTML = Marca;
-      filas.cells[2].innerHTML = Modelo;
+      filas.cells[2].innerHTML = Correom;
       filas.cells[3].innerHTML = Categoria_id;
       break;
     }
@@ -344,7 +344,7 @@ function enviarPut() {
   var datos = {
     id: idCarros,
     name: Marca,
-    model: Modelo,
+    email: Correom,
     age: Categoria_id
   }
 
